@@ -6,3 +6,5 @@ The code of this work is running in the Google Colab platform with the Kathakali
 Copy the code into your Google Colab and the images into your Google Drive. Once the basic elements are set, there are a couple of things you have to adjust in the code to avoid an error. There are some cells of code to load the images from a Google Drive into a variable. You have to change the file path to where the download images are. First, it is cell 4 which is the preparation of the dataset, and the first cell in the "Face detection and emotion prediction" session which is the original image.
 
 After the adjustment, please take time for the code execution as it consumes some amount of computational resources. So, it would be good if you change the run time type in the Google Colab to T4 GPU. Otherwise, it would be a long time to execute the code around half an hour approximately.
+
+For ease, I have built the trained model in 100 epochs to reduce computational consumption as downloaded via this link. https://drive.google.com/file/d/1TvAxmcWScWcp7XL1SIKIzoXusoJYO9Ty/view?usp=sharing
